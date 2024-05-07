@@ -1,6 +1,6 @@
 FROM node:21.7.3
 
-RUN npm install -g npm@10.7.0
+RUN npm install -g npm@9.1.3
 
 ADD package.json .
 ADD index.js .
